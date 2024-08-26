@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
 
       <div className='relative'>  
-      <Image src={'/pizza.png'} alt='Pizza' fill objectFit='contain'/>
+      <Image src={'/pizza.png'} alt='Pizza' fill style={{ objectFit: "contain"}}/>   
       </div>
     </div>
   )
